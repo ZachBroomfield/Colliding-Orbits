@@ -1,5 +1,5 @@
 export default class GravitationalConstant {
   static get() {
-    return 0.00001
+    return 0.0001
   }
 }

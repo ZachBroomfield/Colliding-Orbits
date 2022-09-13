@@ -25,7 +25,7 @@ export default class InitialCircles {
       },
       {
         position: {
-          x: position.x + 300,
+          x: position.x + 303,
           y: position.y
         },
         radius: 5,
@@ -39,7 +39,7 @@ export default class InitialCircles {
         },
         radius: 5,
         colour: 'blue',
-        mass: 10
+        mass: 100
       },
       {
         position: {
@@ -48,7 +48,25 @@ export default class InitialCircles {
         },
         radius: 5,
         colour: 'red',
-        mass: 10
+        mass: 100
+      },
+      {
+        position: {
+          x: position.x,
+          y: position.y + 553
+        },
+        radius: 5,
+        colour: 'purple',
+        mass: 100
+      },
+      {
+        position: {
+          x: position.x + 40,
+          y: position.y + 40
+        },
+        radius: 5,
+        colour: 'cyan',
+        mass: 100
       },
     ]
   }
